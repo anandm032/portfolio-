@@ -1,0 +1,223 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ANAND M - Data Analyst Portfolio</title>
+    <meta name="description" content="Portfolio of Anand M, a skilled Data Analyst specializing in Python, SQL, Power BI, and Machine Learning.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+    <style>
+      .scroll-down {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        z-index: 9999;
+      }
+      .scroll-down:hover {
+        text-decoration: underline;
+      }
+      .panel__content {
+        color: #fff;
+      }
+      .about-content p {
+        color: #fff !important;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .heading h4 {
+        font-size: 26px;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+      .projects-content .text-content {
+        color: #000;
+        margin-top: 15px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Contact section custom styles */
+      .contact-content .form-control {
+        margin-bottom: 15px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+      }
+
+      .contact-content .btn {
+        border-radius: 8px;
+        padding: 10px 20px;
+      }
+
+      .contact-box {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        margin-top: 20px;
+        color: #000;
+      }
+
+      .more-info p, .more-info a {
+        color: #333;
+        font-size: 15px;
+      }
+    </style>
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="burger">
+        <div class="burger__patty"></div>
+      </div>
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#1" class="nav__link c-blue"><img src="img/home-icon.png" alt=""></a></li>
+        <li class="nav__item"><a href="#2" class="nav__link c-yellow scrolly"><img src="img/about-icon.png" alt=""></a></li>
+        <li class="nav__item"><a href="#3" class="nav__link c-red"><img src="img/projects-icon.png" alt=""></a></li>
+        <li class="nav__item"><a href="#4" class="nav__link c-green"><img src="img/contact-icon.png" alt=""></a></li>
+      </ul>
+    </nav>
+
+    <!-- Home -->
+    <section class="panel b-blue" id="1">
+      <article class="panel__wrapper">
+        <div class="panel__content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="home-content">
+                  <div class="home-heading">
+                    <h1>Hi, I'm <strong>ANAND M</strong></h1>
+                    <p>Data Analyst | Python | SQL | Power BI | Machine Learning</p>
+                    <img src="img/1695174899141.jpg" alt="Profile Picture" style="width:150px; border-radius:50%; margin-top:20px;">
+                    <h3 style="margin-top:30px;">Welcome to My Portfolio</h3>
+                    <p>I’m a passionate Data Analyst with a strong foundation in statistics, programming, and problem-solving. I specialize in turning complex data into clear, actionable insights that support business decisions and drive growth.</p>
+                    <div class="scroll-down" onclick="document.getElementById('2').scrollIntoView({behavior: 'smooth'});">↓ Scroll down to explore</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- About -->
+    <section class="panel" id="2" style="background-color: #111;">
+      <article class="panel__wrapper">
+        <div class="panel__content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="about-content">
+                  <div class="heading"><h4>About Me</h4></div>
+                  <p>Hi, I'm ANAND M, a passionate Data Analyst with a strong foundation in statistics, programming, and problem-solving. I specialize in turning complex data into clear, actionable insights that support business decisions and drive growth.</p>
+                  <p>With hands-on experience in Python, SQL, Excel, Power BI, and Machine Learning, I’ve worked on impactful projects like building a SQL Chatbot for natural language data queries and implementing Realtime Object Detection systems. My strength lies in simplifying data for non-technical users while ensuring accuracy and clarity in every analysis.</p>
+                  <p>I'm highly organized, detail-oriented, and continuously learning to stay ahead in the data-driven world. Whether it’s creating dashboards, automating reports, or analyzing trends, I enjoy using data to uncover stories that matter.</p>
+                  <p>Let's connect and explore how data can solve real-world problems!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Projects -->
+    <section class="panel b-red" id="3">
+      <article class="panel__wrapper">
+        <div class="panel__content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="projects-content">
+                  <div class="heading"><h4>Projects</h4></div>
+
+                  <div class="project-item">
+                    <img src="img/Screenshot_20-7-2025_211914_kainovation.com.jpg" alt="SQL Chatbot">
+                    <div class="text-content">
+                      <h4>🔍 SQL Chatbot</h4>
+                      <p>Built a chatbot that lets users ask questions in plain English and automatically converts them into SQL queries. Helps users interact with databases without writing any code.</p>
+                      <p><strong>Tech:</strong> Python, SQL, Gemini/OpenAI, Flask</p>
+                      <p><strong>Skills:</strong> NLP, SQL automation, backend development</p>
+                      <p><strong>GitHub:</strong> <a href="https://github.com/anandm032/SQLCAHTBOT" target="_blank">SQL Chatbot Repository</a></p>
+                    </div>
+                  </div>
+
+                  <div class="project-item">
+                    <img src="img/Screenshot_20-7-2025_212045_www.bing.com.jpg" alt="Real-time Object Detection">
+                    <div class="text-content">
+                      <h4>🎯 Real-Time Object Detection</h4>
+                      <p>Created a system that detects and labels objects live from a webcam or video using YOLOv5. Draws bounding boxes around detected objects in real time.</p>
+                      <p><strong>GitHub:</strong> <a href="https://github.com/anandm032/smart_vision" target="_blank">Smart Vision Repository</a></p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Contact -->
+    <section class="panel b-green" id="4">
+      <article class="panel__wrapper">
+        <div class="panel__content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="contact-content">
+                  <div class="heading"><h4>Contact Me</h4></div>
+                  <div class="row contact-box">
+                    <div class="col-md-7">
+                      <form id="contact" action="" method="post">
+                        <fieldset><input name="name" type="text" class="form-control" placeholder="Your Name" required></fieldset>
+                        <fieldset><input name="email" type="email" class="form-control" placeholder="Email" required></fieldset>
+                        <fieldset><textarea name="message" rows="6" class="form-control" placeholder="Message" required></textarea></fieldset>
+                        <fieldset><button type="submit" class="btn btn-success">Send Message</button></fieldset>
+                      </form>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="more-info">
+                        <p>If you'd like to collaborate, feel free to reach out via email or the form.</p>
+                        <p><strong>Email:</strong><br><a href="mailto:anandm15032005@gmail.com">anandm15032005@gmail.com</a></p>
+                        <p><strong>GitHub:</strong><br><a href="https://github.com/anandm032" target="_blank">github.com/anandm032</a></p>
+                        <p><strong>Location:</strong><br>Chennai, India</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="footer">
+                  <p>&copy; 2025 ANAND M | Design: Based on TemplateMo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
